@@ -44,6 +44,34 @@ $(function(){
            }
         }]
     });
+
+    function realTime(time) {
+      var timeWrapper = $('.timezone');
+      var getTime = new Date(time);
+      var setTime = new Date(getTime).toLocaleTimeString("en-US");
+      var getTimeStatus = setTime.replace(/[^a-zA-Z ]/g, "").trim();
+      if(getTimeStatus === 'AM') {
+        timeWrapper.text('Its a grate day ahead');
+      } else {
+        timeWrapper.text('What a wonderful evening!!!');
+      }
+    }
+    
+
+    $.get("https://api.ipdata.co?api-key=test", function (response) {
+      try {
+        console.log(JSON.stringify(response, null, 4))
+        console.log(response.time_zone.current_time);
+        $('.country').text(response.country_name);
+        realTime(response.time_zone.current_time);
+      } catch (error) {
+        throw error
+      }
+      // $("#response").html(JSON.stringify(response, null, 4));
+    }, "jsonp");
       
+    setTimeout(function(){
+      $('body').addClass('loaded');
+    }, 5000);
 
 });
