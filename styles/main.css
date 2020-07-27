@@ -559,9 +559,7 @@ img {
 .blend-area-inside {
     padding-top: 11em;
 }
-.container {
-    position: relative;
-}
+
 .row {
     display: -ms-flexbox;
     display: flex;
@@ -579,9 +577,8 @@ img {
     width: 100%;
     height: 100%;
 }
+
 /*banner*/
-
-
 .home-banner .banner {
     display: flex;
     position: relative;
@@ -1069,3 +1066,92 @@ img {
     -webkit-transform: translateX(100%);
             transform: translateX(100%);
   }
+
+
+.template-ltf-rgt {
+    position: relative;
+}
+
+.tempt-img-container {
+    position: absolute;
+}
+
+.custom-banner-style-1 {
+    right:-10em;
+    top: 0;
+    width: 50vw;
+}
+
+.dark-bg {
+    color: #fff;
+    background: #000;
+}
+
+.blank {
+    height: 80vh;
+}
+.about-company {
+    padding: 150px 0;
+}
+
+.justify-content-center {
+    justify-content: center!important;
+}
+.justify-content-left {
+    justify-content: flex-start!important;
+}
+.justify-content-right {
+    justify-content: flex-end!important;
+}
+
+h4 {
+    font-size: 1.8em;
+    margin-bottom: 2em;
+    font-weight: 600;
+}
+
+.about-company .list li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.about-company .list {
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.about-company .list li .key {
+    width: 120px;
+    text-align: right;
+    padding-right: 20px;
+}
+.about-company .list li .value {
+    padding-left: 100px;
+}
+
+.next-cta {
+    text-align: center;
+    padding: 150px 0;
+}
+
+.testimonials {
+    padding: 150px 0;
+    text-align: center;
+}
+.testimonials .slide {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimonials .client-circle {
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    border: 6px solid #000;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}

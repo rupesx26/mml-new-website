@@ -57,6 +57,9 @@ $(function(){
       }
     }
     
+   
+    
+
 
     $.get("https://api.ipdata.co?api-key=test", function (response) {
       try {
