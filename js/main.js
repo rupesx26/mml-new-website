@@ -17,6 +17,18 @@ $(function(){
         speed: 2000
       });
 
+      $('.testimonial-slider').slick({
+        arrows: false,
+        dots: false,
+        fade: true,
+        infinite: true,
+        autoplay: true,
+        speed: 2000,
+        slidesToScroll: 1,
+        pauseOnHover: true
+      })
+      
+
       $('.team-slider').slick({
         dots: false,
         infinite: true,
@@ -57,9 +69,6 @@ $(function(){
       }
     }
     
-   
-    
-
 
     $.get("https://api.ipdata.co?api-key=test", function (response) {
       try {

@@ -1133,7 +1133,32 @@ h4 {
 
 .next-cta {
     text-align: center;
-    padding: 150px 0;
+    padding: 60px 0;
+}
+.next-cta .next {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.next-cta a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.next-cta span {
+    display: block;
+}
+.next-cta .arrow {
+    width: 80px;
+}
+
+.next-cta .page-name {
+    font-size: 1.3em;
+}
+
+.about-page .next-cta .cta-img {
+    width: 180px;
+    margin: 7em auto 1em;
 }
 
 .testimonials {
@@ -1154,4 +1179,13 @@ h4 {
     border: 6px solid #000;
     border-radius: 50%;
     margin-bottom: 25px;
+}
+.testimonial-slider .slick-slide .client-circle {
+    transform: scale(0.9);
+    border-color: #ccc;
+    transition: all .5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+.testimonial-slider .slick-active .client-circle {
+    transform: scale(1);
+    border-color: #000;
 }
