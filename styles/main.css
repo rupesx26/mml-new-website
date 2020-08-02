@@ -68,6 +68,10 @@ p{
 img {
     max-width: 100%;
 }
+
+section {
+    position: relative;
+}
 /*grid*/
 
 .row [class^=col-] {
@@ -547,7 +551,6 @@ img {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    margin-right: 4.5em;
 }
 
 #page-header .navigation ul a{
@@ -886,6 +889,13 @@ img {
     transform-origin: left;
 }
 
+.navigation .active .menu-link::before {
+    -webkit-transform: translate(0, -50%) scaleX(1);
+    transform: translate(0, -50%) scaleX(1);
+    -webkit-transform-origin: left;
+    transform-origin: left;
+}
+
 .news-section {
     padding: 10em 0;
 }
@@ -1068,17 +1078,29 @@ img {
   }
 
 
-.template-ltf-rgt {
-    position: relative;
-}
-
 .tempt-img-container {
     position: absolute;
 }
 
 .custom-banner-style-1 {
-    right:-10em;
+    right:0;
     top: 0;
+}
+
+.custom-banner-style-2 {
+    left:0;
+    top: 0;
+}
+.tempt-img-container.width40 {
+    width: 40vw;
+}
+.tempt-img-container.width45 {
+    width: 45vw;
+}
+.tempt-img-container.width30 {
+    width: 30vw;
+}
+.tempt-img-container.width50 {
     width: 50vw;
 }
 
@@ -1156,7 +1178,7 @@ h4 {
     font-size: 1.3em;
 }
 
-.about-page .next-cta .cta-img {
+.next-cta .cta-img {
     width: 180px;
     margin: 7em auto 1em;
 }
@@ -1188,4 +1210,18 @@ h4 {
 .testimonial-slider .slick-active .client-circle {
     transform: scale(1);
     border-color: #000;
+}
+
+.planning, .seo, .development, .design {
+    margin: 15em 0;
+}
+
+.image-pair {
+    display: flex;
+    margin: 50px -10px 0;
+}
+
+.image-pair img {
+    width: 50%;
+    padding: 10px;
 }

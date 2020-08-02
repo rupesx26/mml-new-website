@@ -16,19 +16,7 @@ $(function(){
         autoplay: true,
         speed: 2000
       });
-
-      $('.testimonial-slider').slick({
-        arrows: false,
-        dots: false,
-        fade: true,
-        infinite: true,
-        autoplay: true,
-        speed: 2000,
-        slidesToScroll: 1,
-        pauseOnHover: true
-      })
       
-
       $('.team-slider').slick({
         dots: false,
         infinite: true,
@@ -57,6 +45,27 @@ $(function(){
         }]
     });
 
+    function coverImgArea() {
+      $('.tempt-img-container').each(function(){
+        var divHeight = $(this).height(); 
+        $(this).parent('section').find('.blank').css('height', divHeight+'px');
+      });
+    }
+
+    coverImgArea();
+
+    $('.testimonial-slider').slick({
+      arrows: false,
+      dots: true,
+      fade: true,
+      infinite: true,
+      autoplay: true,
+      speed: 2000,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      pauseOnHover: true
+    });
+
     function realTime(time) {
       var timeWrapper = $('.timezone');
       var getTime = new Date(time);
@@ -72,8 +81,8 @@ $(function(){
 
     $.get("https://api.ipdata.co?api-key=test", function (response) {
       try {
-        console.log(JSON.stringify(response, null, 4))
-        console.log(response.time_zone.current_time);
+       // console.log(JSON.stringify(response, null, 4))
+       // console.log(response.time_zone.current_time);
         $('.country').text(response.country_name);
         realTime(response.time_zone.current_time);
       } catch (error) {
