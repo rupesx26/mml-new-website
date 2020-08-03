@@ -726,6 +726,9 @@ section {
   .section-heading {
     margin-bottom: 5em;
   }
+  .section-heading.bottom2{
+      margin-bottom: 2em;
+  }
 
   .section-heading h2{
     font-size: 3.55em;
@@ -1224,4 +1227,74 @@ h4 {
 .image-pair img {
     width: 50%;
     padding: 10px;
+}
+
+.work-list .work-list-wrapper {
+    padding-bottom: 20em;
+}
+
+.work-list  .list-col .project-link {
+    color: #000;
+}
+
+.work-list .image-container:hover .overlay-img{
+    height: 100%;
+    cursor: pointer;
+}
+.overlay-img {
+    position: absolute;
+    background: rgba(0,0,0,0.3);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: 11111;
+     height: 0;
+     overflow: hidden;
+    transition: all .5s cubic-bezier(.28,.05,.76,.94);
+}
+
+.overlay-img .hidden-text {
+    opacity: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 0.8em;
+    height: 70px;
+    width: 70px;
+    display: block;
+    text-align: center;
+    line-height: 5.2;
+    transform: rotate(-360deg);
+    position: relative;
+    margin: 45% auto;
+    transition: all .5s cubic-bezier(.28,.05,.76,.94);
+}
+
+.overlay-img .hidden-text:hover {
+    color: #ffdf00;
+    border-color: #ffdf00;
+    box-shadow: -1px 0px 10px 3px rgba(255,223,0,0.3);
+}
+
+.work-list .image-container:hover .overlay-img .hidden-text {
+    opacity: 1;
+    transform: rotate(0deg);
+}
+
+.align-center {
+    text-align: center;
+}
+
+.project-views {
+    margin: 100px 0;
+}
+.align-item-center {
+    align-items: center;
+}
+
+.project-views h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 20px;
 }

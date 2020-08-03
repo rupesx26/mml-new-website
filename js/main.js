@@ -81,7 +81,7 @@ $(function(){
 
     $.get("https://api.ipdata.co?api-key=test", function (response) {
       try {
-       // console.log(JSON.stringify(response, null, 4))
+        console.log(JSON.stringify(response, null, 4))
        // console.log(response.time_zone.current_time);
         $('.country').text(response.country_name);
         realTime(response.time_zone.current_time);
