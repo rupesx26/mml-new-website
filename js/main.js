@@ -66,25 +66,64 @@ $(function(){
       pauseOnHover: true
     });
 
-    function realTime(time) {
+    function realTime() {
+
       var timeWrapper = $('.timezone');
-      var getTime = new Date(time);
-      var setTime = new Date(getTime).toLocaleTimeString("en-US");
-      var getTimeStatus = setTime.replace(/[^a-zA-Z ]/g, "").trim();
-      if(getTimeStatus === 'AM') {
-        timeWrapper.text('Its a grate day ahead');
-      } else {
-        timeWrapper.text('What a wonderful evening!!!');
+      var getTime = new Date();
+      // var setTime = new Date(getTime).toLocaleTimeString("en-US");
+      var hours = getTime.getHours();
+      var minute = checkTime(getTime.getMinutes());
+      var seconds = checkTime(getTime.getSeconds());
+      var timeFormat = (hours >= 12)? " PM ":" AM ";
+      hours = (hours >= 12)? hours - 12: hours;
+      if (hours === 0 && timeFormat === ' PM ') {
+          if (minute === 0 && seconds === 0) {
+              hours = 12;
+              timeFormat = ' Noon';
+              timeWrapper.find('.time-msg').text('Its a grate good after noon');
+          } else {
+              hours = 12;
+              timeFormat = ' PM';
+              timeWrapper.find('.time-msg').text('Its a grate day ahead');
+          }
       }
+
+      if (hours === 0 && timeFormat === ' AM ') {
+          if (minute === 0 && seconds === 0) {
+              hours = 12;
+              timeFormat = ' Midnight';
+              timeWrapper.find('.time-msg').text('Midnight stories');
+          }
+          else {
+              hours = 12;
+              timeFormat = ' AM';
+              timeWrapper.find('.time-msg').text('Awaking nights :)');
+          }
+      }
+
+      if(timeFormat === ' AM ') {
+        timeWrapper.find('.time-msg').text('Happy Day.');
+      } else if(timeFormat === ' PM ') {
+        timeWrapper.find('.time-msg').text('I like the night.');
+      }
+
+      var clock = hours + '' + timeFormat + ':' + minute + ':' + seconds;
+      timeWrapper.find('.time').text(clock);
+      setTimeout(realTime, 500); //recursive
+      
     }
     
+    function checkTime(i) {
+      if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+      return i;
+    }
 
     $.get("https://api.ipdata.co?api-key=test", function (response) {
       try {
-        console.log(JSON.stringify(response, null, 4))
+       // console.log(JSON.stringify(response, null, 4))
        // console.log(response.time_zone.current_time);
         $('.country').text(response.country_name);
-        realTime(response.time_zone.current_time);
+        realTime();
       } catch (error) {
         throw error
       }
@@ -95,4 +134,4 @@ $(function(){
       $('body').addClass('loaded');
     }, 5000);
 
-});
+})();

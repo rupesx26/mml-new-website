@@ -25,8 +25,13 @@
              <rect class="water-fill" mask="url(#text_mask)" fill="url(#water)" x="400" y="0" width="1600" height="50"/>
            </svg></h2>
             <div>
-                <div class="timezone"></div>
-                <div class="country"></div>
+
+                <div class="timezone">
+                    <div class="country"></div>
+                    <div class="time"></div>
+                    <div class="time-msg"></div>
+                </div>
+    
             </div>
         </div>
 

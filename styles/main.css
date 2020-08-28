@@ -1298,3 +1298,40 @@ h4 {
     font-weight: 600;
     margin-bottom: 20px;
 }
+
+.light-bg {
+    background-color: #fff;
+    padding: 100px 0;
+}
+.page-banner {
+    padding: 100px 0;
+}
+
+.timezone {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 1em;
+    left: 0;
+    width: 100%;
+    padding: 0 2em;
+}
+
+.timezone .country {
+    color: #989797;
+}
+
+.timezone .time-msg {
+    display: none;
+}
+
+.timezone .time {
+    font-weight: 600;
+    color: #989797;
+    border-radius: 3px;
+    font-size: 1em;
+    padding: 0.5em;
+}
