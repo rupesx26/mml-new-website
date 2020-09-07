@@ -5,7 +5,7 @@
                 <div class="col-md-12">
                     <div class="view">
                         <div class="logo">
-                            <h1><a href='/'>MAKEMELIVE TECHNOLOGIES LLP </a></h1>
+                            <h1><a href='/'>MML</a></h1>
                         </div>
                         <div class="navigation">
                             <ul>
