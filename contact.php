@@ -5,14 +5,37 @@
 </head>
 <body>
 <?php require('./templates/bodyHeader.php'); ?>
-				<!-- contact form start -->
+                <section class="page-banner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="section-heading">
+                                    <h2>Contact.</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-5">
+                                <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content' here.</p>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="blank"></div>
+                            </div>
+                            
+                        </div>    
+                    </div>
+                    <div class="tempt-img-container custom-banner-style-1">
+                        <img src="images/img03.jpg" />
+                    </div>
+                </section>
+                <!-- contact form start -->
                 <section class="about-contact">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-8 col-offset-lg-2">
                                 <div class="contact-form-wrapper">
                                     <div class="section-contact-title">
-                                        <h2>Contact Us</h2>
+                                        <!-- <h2>Contact Us</h2> -->
                                     </div>
                                     <form id="contact-form" method="post" action="contact.php" role="form">
                                         <div class="messages"></div>
@@ -73,29 +96,6 @@
                     </div>
                 </section>
                 <!-- contact form end -->
-                <section class="page-banner">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="section-heading">
-                                    <h2>Contact.</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-5">
-                                <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content' here.</p>
-                            </div>
-                            <div class="col-md-7">
-                                <div class="blank"></div>
-                            </div>
-                            
-                        </div>    
-                    </div>
-                    <div class="tempt-img-container custom-banner-style-1">
-                        <img src="images/img03.jpg" />
-                    </div>
-                </section>
                 
                 <section class="dark-bg about-company">
                     <div class="container">
@@ -115,57 +115,17 @@
                     </div>
                 </section>
 
-                <section class="testimonials">
+                <section class="next-cta">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <div class="col-md-6">
-                                <div class="testimonial-slider">
-                                    <div class="slide">
-                                        <div class="client-circle">
-                                            <img src="images/staff01.jpg"/>
-                                        </div>
-                                        <div class="client-text">
-                                           <p>Very supportive staff and very usefull guidance from makemelive. Baki sab kaam ekdam time to time update karte hai bande ekdam hard hai bole toh</p> 
-                                        </div>
-                                    </div>
-                                    <div class="slide">
-                                        <div class="client-circle">
-                                            <img src="images/staff04.jpg"/>
-                                        </div>
-                                        <div class="client-text">
-                                           <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Very supportive staff and very usefull guidance from makemelive. Baki sab kaam ekdam time to time update karte hai bande ekdam hard hai bole toh</p> 
-                                        </div>
-                                    </div>
-                                    <div class="slide">
-                                        <div class="client-circle">
-                                            <img src="images/staff03.jpg"/>
-                                        </div>
-                                        <div class="client-text">
-                                           <p>Very supportive staff and very usefull guidance from makemelive. Baki sab kaam ekdam time to time update karte hai bande ekdam hard hai bole toh</p> 
-                                        </div>
-                                    </div>
-                                    <div class="slide">
-                                        <div class="client-circle">
-                                            <img src="images/staff02.jpg"/>
-                                        </div>
-                                        <div class="client-text">
-                                           <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Very supportive staff and very usefull guidance from makemelive. Baki sab kaam ekdam time to time update karte hai bande ekdam hard hai bole toh</p> 
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-    <section class="light-bg contact-form">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-9">
-                </div>
-            </div>
-        </div>
-    </section>
+                            <div class="col-md-5">
+                                <a href="">
+                                    <span class="next">NEXT</span> 
+                                    <span class="arrow">
+                                        <img src="images/next-arrow.svg" alt="next">
+                                    </span> 
+                                    <span class="page-name">Services</span>
+                                </a>
 
     <section class="next-cta">
         <div class="container">
