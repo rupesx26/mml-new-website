@@ -5,18 +5,7 @@
 </head>
 <body>
 <?php require('./templates/bodyHeader.php'); ?>
-    <section class="page-banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-heading">
-                        <h2>Contact.</h2>
-                    </div>
-                    <div class="tempt-img-container custom-banner-style-1">
-                        <img src="images/img03.jpg" />
-                    </div>
-                </section>
-                <!-- contact form start -->
+				<!-- contact form start -->
                 <section class="about-contact">
                     <div class="container">
                         <div class="row">
@@ -84,6 +73,30 @@
                     </div>
                 </section>
                 <!-- contact form end -->
+                <section class="page-banner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="section-heading">
+                                    <h2>Contact.</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-5">
+                                <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content' here.</p>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="blank"></div>
+                            </div>
+                            
+                        </div>    
+                    </div>
+                    <div class="tempt-img-container custom-banner-style-1">
+                        <img src="images/img03.jpg" />
+                    </div>
+                </section>
+                
                 <section class="dark-bg about-company">
                     <div class="container">
                         <div class="row justify-content-center">
