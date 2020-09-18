@@ -5,8 +5,7 @@
                 <div class="col-md-12">
                     <div class="view">
                         <div class="logo">
-                            <!-- <h1><a href='/'>mml</a></h1> -->
-                            <img src="images/mml-logo.png">
+                            <img src="images/head-logo.png" alt="header__logo">
                         </div>
                         <div class="navigation">
                             <ul>

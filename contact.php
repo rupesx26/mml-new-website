@@ -12,20 +12,11 @@
                                 <div class="section-heading">
                                     <h2>Contact.</h2>
                                 </div>
+                                <div class="section-para">
+                                    <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content' here.</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-5">
-                                <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content' here.</p>
-                            </div>
-                            <div class="col-md-7">
-                                <div class="blank"></div>
-                            </div>
-                            
-                        </div>    
-                    </div>
-                    <div class="tempt-img-container custom-banner-style-1">
-                        <img src="images/img03.jpg" />
+                        </div>   
                     </div>
                 </section>
                 <!-- contact form start -->
@@ -34,9 +25,9 @@
                         <div class="row">
                             <div class="col-lg-8 col-offset-lg-2">
                                 <div class="contact-form-wrapper">
-                                    <div class="section-contact-title">
-                                        <!-- <h2>Contact Us</h2> -->
-                                    </div>
+                                    <!-- <div class="section-contact-title">
+                                        <h2>Contact Us</h2>
+                                    </div> -->
                                     <form id="contact-form" method="post" action="contact.php" role="form">
                                         <div class="messages"></div>
                                         <div class="controls">
@@ -115,6 +106,7 @@
                     </div>
                 </section>
 
+
                 <section class="next-cta">
                     <div class="container">
                         <div class="row justify-content-center">
@@ -126,25 +118,13 @@
                                     </span> 
                                     <span class="page-name">Services</span>
                                 </a>
-
-    <section class="next-cta">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-5">
-                    <a href="">
-                        <span class="next">NEXT</span> 
-                        <span class="arrow">
-                            <img src="images/next-arrow.svg" alt="next">
-                        </span> 
-                        <span class="page-name">Services</span>
-                    </a>
-                    <div class="cta-img">
-                        <img src="images/mml-vector-2.png" alt='mml' />
+                                <div class="cta-img">
+                                    <img src="images/mml-vector-2.png" alt='mml' />
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                </section>
     <?php require('./templates/footer.php'); ?>
 </body>
 </html>
