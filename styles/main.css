@@ -520,13 +520,13 @@ section {
 /*header*/
 #page-header {
     z-index: 9999;
-    position: fixed;
     width: 100%;
+    /* position: fixed;
     padding-top: 3rem;
     padding-bottom: 3rem;
     mix-blend-mode: difference;
     left: 0;
-    top: 0;
+    top: 0; */
     margin: auto;
 }
 #page-header .view {
@@ -535,6 +535,25 @@ section {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+}
+
+#page-header .logo {
+    position: fixed;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    top: 0;
+    left: 65px;
+    z-index: 999;
+}
+
+#page-header .navigation {
+    position: fixed;
+    padding-top: 3.5rem;
+    padding-bottom: 3rem;
+    top: 0;
+    right: 65px;
+    mix-blend-mode: difference;
+    z-index: 999;
 }
 
 #page-header .logo h1{
