@@ -13,7 +13,8 @@
                                     <h2>Contact.</h2>
                                 </div>
                                 <div class="section-para">
-                                    <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content' here.</p>
+                                    <p> Keep in touch for the latest insights, knowledge seminars, industry trends and every new development within the Makemelive World.
+</p>
                                 </div>
                             </div>
                         </div>   

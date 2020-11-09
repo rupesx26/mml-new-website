@@ -16,7 +16,11 @@
                         </div>
                         <div class="row">
                             <div class="col-md-5">
-                                <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content' here.</p>
+                                <p> Makemelive is a digital marketing and technology services agency that works with brands to build effective and innovative brand campaigns leveraging the power of creative, technology and data.
+
+Makemelive is structured as a parent company with dedicated verticals catering to different needs of a brand’s business organization. Each vertical has specialized teams and leaders
+
+Each of Makemelive’s specialized verticals are domain specific. These are as follows</p>
                             </div>
                             <div class="col-md-7">
                                 <div class="blank"></div>
