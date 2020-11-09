@@ -21,7 +21,7 @@
                     <div class="blank"></div>
                 </div>
                 <div class="col-md-5">
-                    <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content' here.</p>
+                    <p> We provide business with a data-centric approach towards achieving an impactful, innovative and, most of all sustained digital presence.</p>
                 </div>
             </div>  
         </div>
@@ -41,7 +41,9 @@
                     <div class="section-heading">
                         <h2>Planning.</h2>
                     </div>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content' here.</p>
+                    <p>At Makemelive we believe that a great creative is only the beginning of advertising. Building visibility, consistently and coherently remains a critical aspect of taking a campaign live. Integrating best-in-class planning with efficient operations, Makemelive Media works to build the best visibility for your brand.
+
+</p>
                 <div class="image-pair">
                     <img src="images/l-service_planning_content_img01.webp"/>
                     <img src="images/l-service_planning_content_img02.jpg"/>
@@ -68,7 +70,10 @@
                     <div class="section-heading">
                         <h2>Development.</h2>
                     </div>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content' here.</p>
+                    <p>From simple websites, to e-Commerce to complete digital transformation initiateves.
+Makemelive combines a complete understanding of business priorities with efficient and innovative technology to drive exponential growth.
+
+</p>
                 <div class="image-pair">
                     <img src="images/l-service_planning_content_img01.webp"/>
                     <img src="images/l-service_planning_content_img02.jpg"/>
@@ -89,7 +94,9 @@
                     <div class="section-heading">
                         <h2>SEO.</h2>
                     </div>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content' here.</p>
+                    <p>We, at Makemelive, India’s leading SEO agency that provides a comprehensive search engine optimization portfolio so that businesses can leverage the power to be on the first page, bring quality improvements to their search algorithms, increase visibility, and garner profitable goals by bringing targeted traffic to their websites.
+
+</p>
                 <div class="image-pair">
                     <img src="images/l-service_planning_content_img01.webp"/>
                     <img src="images/l-service_planning_content_img02.jpg"/>
@@ -115,7 +122,7 @@
                     <div class="section-heading">
                         <h2>Design.</h2>
                     </div>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content' here.</p>
+                    <p>From simple websites, to e-Commerce to complete digital transformation initiatives. Makemelive combines a complete understanding of business priorities with efficient and innovative technology to drive exponential growth. </p>
                 <div class="image-pair">
                     <img src="images/l-service_planning_content_img01.webp"/>
                     <img src="images/l-service_planning_content_img02.jpg"/>

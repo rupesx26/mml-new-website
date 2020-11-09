@@ -5,7 +5,7 @@
                 <div class="col-md-12">
                     <div class="view">
                         <div class="logo">
-                            <img src="images/head-logo.png" alt="header__logo">
+                           <a href="/"> <img src="images/head-logo.png" alt="header__logo"> </a>
                         </div>
                         <div class="navigation">
                             <ul>

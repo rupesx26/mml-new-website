@@ -71,7 +71,9 @@
                 <div class="row">
                     <div class="col-md-5">
                         <h3>Makemelive Technologies</h3>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>
+                        <p>We are an Information Technology service agency based in Mumbai doing business with clients across the globe. Solution driven company, Makemelive aims to maximise the outcome by coming up with the best solutions to your problems. We also help elevate and accelerate your ideas to get recognized in the market.
+
+</p>
                     </div>
                 </div>
             </div>
@@ -111,11 +113,11 @@
                     <div class="col-md-1"></div>
                     <div class="col-md-3">
                         <h4>Creative</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p>We provide a data-centric and creative approach towards achieving an impactful, innovative and most of all sustained digital marketing presence. Our geeks ensure your business approaches digital in an informed &amp; powerful manner.</p>
                     </div>
                     <div class="col-md-3">
                         <h4>Material</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p>Our Branding & Events extension meets the growing need for businesses to consolidate their online and offline communication, complimenting one another towards a 360 degree experience.</p>
                     </div>
                 </div>
             </div>
@@ -248,7 +250,7 @@
 
                         <div class="col-md-6">
                             <h3>Our Team</h3>
-                            <p>Team Moto is :- Think - Code - Create - Repeat Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                            <p>Team Moto is :- Think - Code - Create - Repeat Our vision is to provide quality products & services that exceeds the expectations of our esteemed customers. We strive towards delighting our customers at every opportunity through exceptional customer service. Our future looks bright as we continue developing a strong base of key customers and increasing the assets and investments of the company.</p>
                         </div>
                         
                     </div>
