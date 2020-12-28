@@ -45,16 +45,23 @@
         <div id="home-banner" class="home-banner">
             <div class="container">
                 <div class="row">
+                    <!-- <div class="col-md-12 text-center">
+                    <p>The world is going digital, why not you?  </p> 
+                    <p>Join us and groove into the world of possibilities!</p>
+                    <p>Looking for a Digital marketing agency in Mumbai to grow your business with proficient Web developers in Mumbai? </p>
+                    <p>Your quest ends here! </p>
+
+                    </div> -->
                     <div class="banner">
                         <div class="text-content">
                             <div class="slide">
-                                <span class="text-dynamic cursive">Digital </span>
+                            <p>The world is going digital, <strong>why not you?</strong>  </p> 
+                            <p>Join us and groove into the world of possibilities!</p>
+                                <!-- <span class="text-static">Digital </span>
+                                <span class="text-dynamic cursive">Marketing </span>
                                 <span class="text-static">Agency</span>
-                                <span class="welcome-text">Welcome! It is a digital company </span>
+                                <span class="welcome-text">Welcome! It is a digital company </span> -->
                             </div>
-                            <!-- <div class="slide">SEO</div>
-                            <div class="slide">Code</div>
-                            <div class="slide">Creative</div> -->
                         </div>
                         
                         <div class="image-content">
@@ -66,15 +73,29 @@
                 </div>
             </div>
         </div>
+        <div>
+        
         <div id="home-intro" class="home-intro">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5">
-                        <h3>Makemelive Technologies</h3>
-                        <p>We are an Information Technology service agency based in Mumbai doing business with clients across the globe. Solution driven company, Makemelive aims to maximise the outcome by coming up with the best solutions to your problems. We also help elevate and accelerate your ideas to get recognized in the market.
-
+                    <div class="col-md-12">
+                        <h1 class="text-center">WE ARE A DIGITAL MARKETING AGENCY IN MUMBAI</h1>
+                        <p>Makemelive Technologies is a Top digital marketing agency in Mumbai dedicated to delivering precise result oriented Digital Marketing services in Mumbai. We at Make me live Technologies comprehend your business essentials, tendencies, delineations, and planning. With outstanding working experience of more than 10 years in this industry, we are here to help you envisage your stature in the digital world and advance your business to expand and thrive online.
 </p>
+<p>We ensure you to deliver incomparable web development solutions based on your requirements. We solely pool the power of innovation, novel technology, target-oriented marketing, digital marketing services, and outcome metrics to create unique digital makeovers.
+</p>
+<br />
+<br />
+<br />
+<h2 class="text-center">RESULTS DRIVEN DIGITAL MARKETING AGENCY PROVIDING WEB DEVELOPERS IN MUMBAI</h2>
+<p>We create best and remarkable web development design and deliver professional digital experience that benefit in fetching targeted audience closer to your business. Makemelive is a leading digital marketing agency in Mumbai, which aims at delivering evident and targeted outcome-oriented 360-degree digital solutions. We work around the clock to craft the perfect imbue of conceptualization and implementation.
+</p>
+<p>MakemeLive technologies have a professional team of web design development who has created over 1000 of website to help our client grow in the digital world. Our team of coders, designers makes exceptionally well-equipped websites that take the business onto next level in the world of digitalization.
+</p>
+
                     </div>
+                    
+
                 </div>
             </div>
         </div>
@@ -82,6 +103,13 @@
         <div class="home-process">
             <div class="container">
                 <div class="row">
+                    
+                    <!-- <div class="col-md-1"></div> -->
+                    <div class="col-md-4">
+                        <h4>DIGITAL EXPERTS</h4>
+                        <p>We are a team of experienced and professional digital enthusiasts who craft, perform, and deliver outstanding results in the field of digital marking. We are digital experts who deliver our optimum services to those business professionals who want to thrive and achieve their goals online. Our proficiency lies in our zealous team's determination, whose commitment towards this industry has made us one of the Top digital marketing agency in Mumbai. 
+</p>
+                    </div>
                     <div class="col-md-4">
                         <div class="process-slider">
                             <div class="img-slide">
@@ -110,14 +138,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-3">
-                        <h4>Creative</h4>
-                        <p>We provide a data-centric and creative approach towards achieving an impactful, innovative and most of all sustained digital marketing presence. Our geeks ensure your business approaches digital in an informed &amp; powerful manner.</p>
-                    </div>
-                    <div class="col-md-3">
-                        <h4>Material</h4>
-                        <p>Our Branding & Events extension meets the growing need for businesses to consolidate their online and offline communication, complimenting one another towards a 360 degree experience.</p>
+                    <div class="col-md-4">
+                        <h4>PROFICIENT AND INGENIOUS</h4>
+                        <p>As your very own digital specialist, we scrutinize your business's requirements and then plan targeted strategies. While keeping in mind how the audience will react to your digital engagements and interfaces. We articulate the impeccable digital solutions and Web design development services to craft your digital trails.</p>
                     </div>
                 </div>
             </div>
@@ -129,9 +152,10 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-heading align-right">
-                        <h2>Work</h2>
+                        <h2>Our Services</h2>
                     </div>
-
+                    <p>For us, digital marketing services aren't just about consumer involvement; we focus more on delivering our clients something exceptional to look at. Our digital experts work day and night to create more innovative, ingenious, and expressive techniques to expand your business in the digital marketing industry. We provide our superior core services for:
+</p>
                     <div class="work-list-wrapper">
                         <div class="list-row">
                             <div class="list-col">
@@ -144,8 +168,8 @@
                                 </div>
 
                                 <div class="tile-content">
-                                    <h4 class="cursive">FINDCreative</h4>
-                                    <span>Digital Agency</span>
+                                    <h4>Website Design and Development</h4>
+                                    <!-- <span>Digital Agency</span> -->
                                 </div>
                             </div>
 
@@ -158,38 +182,8 @@
                                     <a class="project-link" href=""><span>visit</span></a>
                                 </div>
                                 <div class="tile-content">
-                                    <h4 class="cursive">FINDCreative</h4>
-                                    <span>Digital Agency</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="list-row">
-                            <div class="list-col">
-                                <div class="image-container">
-                                    <picture>
-                                        <source srcset="images/img02.jpg" type="image/webp">
-                                        <img src="images/img02.jpg" alt="" loading="lazy" class=""> 
-                                    </picture>
-                                    <a class="project-link" href=""><span>visit</span></a>
-                                </div>
-                                <div class="tile-content">
-                                    <h4 class="cursive">FINDCreative</h4>
-                                    <span>Digital Agency</span>
-                                </div>
-                            </div>
-
-                            <div class="list-col">
-                                <div class="image-container">
-                                    <picture>
-                                        <source srcset="images/img02.jpg" type="image/webp">
-                                        <img src="images/img02.jpg" alt="" loading="lazy" class=""> 
-                                    </picture>
-                                    <a class="project-link" href=""><span>visit</span></a>
-                                </div>
-                                <div class="tile-content">
-                                    <h4 class="cursive">FINDCreative</h4>
-                                    <span>Digital Agency</span>
+                                    <h4>Mobile App Development</h4>
+                                    <!-- <span>Digital Agency</span> -->
                                 </div>
                             </div>
                         </div>
@@ -204,8 +198,8 @@
                                     <a class="project-link" href=""><span>visit</span></a>
                                 </div>
                                 <div class="tile-content">
-                                    <h4 class="cursive">FINDCreative</h4>
-                                    <span>Digital Agency</span>
+                                    <h4>Search Engine Optimization (SEO)</h4>
+                                    <!-- <span>Digital Agency</span> -->
                                 </div>
                             </div>
 
@@ -218,8 +212,38 @@
                                     <a class="project-link" href=""><span>visit</span></a>
                                 </div>
                                 <div class="tile-content">
-                                    <h4 class="cursive">FINDCreative</h4>
-                                    <span>Digital Agency</span>
+                                    <h4>Ecommerce Solutions</h4>
+                                    <!-- <span>Digital Agency</span> -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="list-row">
+                            <div class="list-col">
+                                <div class="image-container">
+                                    <picture>
+                                        <source srcset="images/img02.jpg" type="image/webp">
+                                        <img src="images/img02.jpg" alt="" loading="lazy" class=""> 
+                                    </picture>
+                                    <a class="project-link" href=""><span>visit</span></a>
+                                </div>
+                                <div class="tile-content">
+                                    <h4>AWS Architecture Setup</h4>
+                                    <!-- <span>Digital Agency</span> -->
+                                </div>
+                            </div>
+
+                            <div class="list-col">
+                                <div class="image-container">
+                                    <picture>
+                                        <source srcset="images/img02.jpg" type="image/webp">
+                                        <img src="images/img02.jpg" alt="" loading="lazy" class=""> 
+                                    </picture>
+                                    <a class="project-link" href=""><span>visit</span></a>
+                                </div>
+                                <div class="tile-content">
+                                    <h4>Social Media Marketing</h4>
+                                    <!-- <span>Digital Agency</span> -->
                                 </div>
                             </div>
                         </div>
