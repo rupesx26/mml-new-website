@@ -134,4 +134,10 @@ $(function(){
       $('body').addClass('loaded');
     }, 5000);
 
+    $("section, div, figure").each(function(indx) {
+      if ($(this).attr("data-background")) {
+          $(this).css("background-image", "url(" + $(this).data("background") + ")");
+      }
+  });
+
 })();
