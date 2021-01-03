@@ -140,4 +140,17 @@ $(function(){
       }
   });
 
-})();
+  // $(".navicon").on('click',function(e){
+  //   e.preventDefault();
+  //   e.stopPropagation();
+  //   $(this).toogleClass("active")
+  // });
+  $( ".navicon" ).click(function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      $( this ).toggleClass( "active" );
+      $( '.navigation-bg' ).toggleClass( "active" );
+      $( '.navigation' ).toggleClass( "active" );
+  });
+
+});
