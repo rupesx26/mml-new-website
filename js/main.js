@@ -47,7 +47,7 @@ $(function(){
 
     function coverImgArea() {
       $('.tempt-img-container').each(function(){
-        var divHeight = $(this).height(); 
+        var divHeight = $(this).height() / 1.7; 
         $(this).parent('section').find('.blank').css('height', divHeight+'px');
       });
     }
