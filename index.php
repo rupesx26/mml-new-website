@@ -367,47 +367,48 @@
                     </div>
                     <ul class="news-list">
                         <li class="">
-                            <div class="news-type">Website Security .</div>
-                            <div class="news-content"><p>Website security is the action taken to protect the Website from cyber threats. In this way, website protection is a continuous mechanism and an integral aspect of the Website's operation. Protect your data and Website from all types of cybercrimes; we are here to help you secure your Website in the best possible ways.
+                            <div class="news-type">Website design and development.</div>
+                            <div class="news-content"><p>Your website still needs to be designed in ultimate space where you can dive into digitally world and strength your business. At Makemelive, the experienced developers are developing the top-notch website according to your requirements. We ensure you the trending design and quality services that stand out your business from rest. 
 </p></div>
                             <!-- <div class="news-cta"><a hre='' class="menu-link">view more</a></div> -->
                         </li>
                         <li class="">
-                            <div class="news-type">Website Recovery.</div>
-                            <div class="news-content"><p>Crashed Website, Hacked Website, and Database Crashed? We accept that these can be one of the worse scenarios that can happen to your company. While some will rub it off as a "tough lesson to back up," it does not excuse the fact that it is indeed a bitter reality. We will help you through our efficient recovery process and launch a more reliable, fast, flexible, and beautiful Website.</p></div>
-                            <!-- <div class="news-cta"><a hre='' class="menu-link">view more</a></div> -->
-                        </li>
-                        <li class="">
-                            <div class="news-type">Website Speed Optimization.</div>
-                            <div class="news-content"><p> Slow sites destroy the interactions. 47% of customers expect websites to be loaded in two seconds or less. And 40% would leave a website that takes three seconds or more. If your web takes longer than three seconds to launch, nearly half of your guests would be lost before they arrive at your site. This alone is a massive blow to future interactions. Even for the tourists who wish to hang on, your sluggish load times will discourage them from returning to the future. In one poll, 79 percent of users said they would not be returning to a platform with bad results. You never want that. Don't worry, we are here to help you with this issue with our optimum services and targeted plans.
+                            <div class="news-type">Mobile App Development.</div>
+                            <div class="news-content"><p>The app is your business's face, so it needs to be designed accordingly to build your trust and loyalty among the customers. Reach out to us to create colorful and powerful apps, make the app that your business needs to succeed at Makemelive. We develop mobile, tablet and computer friendly app so your customer can accessible with any device. 
 </p></div>
                             <!-- <div class="news-cta"><a hre='' class="menu-link">view more</a></div> -->
                         </li>
                         <li class="">
-                            <div class="news-type">WordPress Expert Solutions.</div>
-                            <div class="news-content"><p>We plan to provide the best Word Press solutions customized to every market model and all business verticals. Our team will offer specialized Word Press development services, including plugin development, theme development, and maintenance services. Getting started with Word Press is artless when you pick Make me live Professional Development Services, designed to fit flexibly around your business needs. 
+                            <div class="news-type">Search engine optimization.</div>
+                            <div class="news-content"><p> Search engine optimization is the process in which your website ranks on the Google pages to attract your targeted customer. At Makemelive, you get in touch with best and experienced technical executives who make your website ranks on the 1st page of Google, increasing the traffic on your website and bringing valuable leads.
 </p></div>
                             <!-- <div class="news-cta"><a hre='' class="menu-link">view more</a></div> -->
                         </li>
                         <li class="">
-                            <div class="news-type">Website Migration.</div>
-                            <div class="news-content"><p>Site migration is famous, but it's not simple. Whether to a new server, domain, or host, migration of any website requires substantial preparation, time, and money. Measure the relocation to your Website, and it could kill your company's traffic and sales instantly. We are here to assist you with this tedious task; reach out to us and get comfortable, reliable website migration services.
+                            <div class="news-type">E-Commerce solutions.</div>
+                            <div class="news-content"><p> Enjoy rich, out-of-the-box features, unrestricted customization, and integrated third-party integrations that meet the particular needs of your company in every sector. With Makemelive Commerce, you are backed by a global community of traders, partners and developers that can carry your business vision to life and deliver e-Commerce solutions to any need.
 </p></div>
                             <!-- <div class="news-cta"><a hre='' class="menu-link">view more</a></div> -->
                         </li>
                         <li class="">
+                            <div class="news-type">AWS architecture setup .</div>
+                            <div class="news-content"><p>This Quick Start establishes the AWS-based networking basis for the best practices of the AWS cloud architecture. At Makemelive, we build a Virtual Private Network (VPC) ecosystem with public and private sub-networks where AWS networks and other technology can be launched. Connect with us to be in touch with premium AWS services.
+</p></div>
+                            <!-- <div class="news-cta"><a hre='' class="menu-link">view more</a></div> -->
+                        </li>
+                        <!-- <li class="">
                             <div class="news-type">Email Migration.</div>
                             <div class="news-content"><p>Your email migration should be done with no disruption or data loss and limited effects on your customers. It's an understatement to say this takes tedious planning! For example, the customers may be distributed around various places and time zones, and they may use all manner of different devices and email clients. You can also have multiple email addresses that are hosted by various providers. We provide services to help you Migrate your email data between all messaging structures with anticipated results.
 
 </p></div>
-                            <!-- <div class="news-cta"><a hre='' class="menu-link">view more</a></div> -->
+                            <div class="news-cta"><a hre='' class="menu-link">view more</a></div>
                         </li>
                         <li class="">
                             <div class="news-type">HTML Emailers Coding.</div>
                             <div class="news-content"><p>One of the most important services that we provide is HTML Emailers Coding services. Our expert team of professional and certified coders works efficiently by determining the purpose of wireframing mail design. <a class="link" href="">Contact us today!</a>
 </p></div>
-                            <!-- <div class="news-cta"><a hre='' class="menu-link">view more</a></div> -->
-                        </li>
+                            <div class="news-cta"><a hre='' class="menu-link">view more</a></div>
+                        </li> -->
                     </ul>
                 </div>
             </div>
